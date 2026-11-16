@@ -55,6 +55,10 @@
 .footer-social {
 }
 
+.footer-subscribe {
+  margin-left: auto;
+}
+
 .footer-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -107,7 +111,7 @@
 
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
-  line-height: 2;
+  line-height: 14px;
   letter-spacing: 0.04em;
   transition: 250ms ease-out;
   transition-property: border-color;
@@ -146,6 +150,8 @@
   letter-spacing: 0.04em;
 
   cursor: pointer;
+
+  transition: background-color 250ms;
 }
 
 .footer .btn-filled:hover,
