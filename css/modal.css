@@ -6,7 +6,7 @@
   width: 100%;
   height: 100%;
 
-  background-color: rgb(46, 47, 66, 0.4);
+  background-color: rgba(46, 47, 66, 0.4);
 
   opacity: 0;
   visibility: hidden;
@@ -68,6 +68,10 @@
   width: 24px;
   height: 24px;
   background: #e7e9fc;
+
+  transition:
+    background-color 250ms ease-out,
+    border-color 250ms ease-out;
 }
 .modal-btn-icon {
   color: #2e2f42;
@@ -106,12 +110,12 @@ Modal form */
 .modal-form-field {
   margin-bottom: 8px;
 }
-.modal-form-lable {
+.modal-form-label {
   display: block;
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
@@ -125,6 +129,7 @@ Modal form */
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 
   outline: transparent;
@@ -198,8 +203,8 @@ Modal form */
   justify-content: center;
   align-items: center;
 
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   margin-right: 8px;
 
   border: 0.88px solid rgba(46, 47, 66, 0.4);
@@ -236,7 +241,7 @@ Modal form */
 }
 
 .modal-form-link {
-  line-height: 1.33333;
+  line-height: 1.17;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
@@ -252,8 +257,18 @@ Modal form */
   padding: 16px 32px;
   width: 169px;
   height: 56px;
+
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #fff;
+
+  cursor: pointer;
 
   transition: 250ms ease-out;
   transition-property: background-color;

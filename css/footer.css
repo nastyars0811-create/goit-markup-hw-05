@@ -124,7 +124,6 @@
 
 .footer-form-input::placeholder {
   color: #ffffff;
-  transition: color 250ms ease-out;
 }
 
 .btn-filled {
